@@ -78,7 +78,7 @@ namespace Calculator.Models
 
         public void Insert(string element)
         {
-            if (Regex.IsMatch(element, @"[+\-*/%,^]"))
+            if (Regex.IsMatch(element, @"[+\-*/,^]"))
                 Expression += string.IsNullOrEmpty(Expression) || Regex.IsMatch(Expression, @"[+\-*/%]$") ? string.Empty : element;
             else
                 Expression += element;
