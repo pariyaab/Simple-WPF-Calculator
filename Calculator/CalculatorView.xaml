@@ -46,7 +46,7 @@
 					<RowDefinition/>
 				</Grid.RowDefinitions>
 				<Viewbox MaxHeight="100" Grid.Row="0" Stretch="Uniform" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-					<TextBox Name="InputTextBox"  BorderBrush="Transparent" TextAlignment="Center"   FontSize="35" Foreground="LightSlateGray" Text="{Binding Expression, Mode=OneWay}" TextWrapping="WrapWithOverflow" />
+					<TextBox Name="InputTextBox"  BorderBrush="Transparent" TextAlignment="Center"   FontSize="35" Foreground="OrangeRed" Text="{Binding Expression, Mode=OneWay}" TextWrapping="WrapWithOverflow" />
 				</Viewbox>
 				<Viewbox MaxHeight="50" Grid.Row="1" Stretch="Uniform" HorizontalAlignment="Right" VerticalAlignment="Bottom">
 					<TextBox Name="ResultTextBox" VerticalContentAlignment="Bottom" HorizontalContentAlignment="Right" BorderBrush="Transparent" FontSize="35"  Foreground="LightSlateGray" Text="{Binding Result, Mode=OneWay}" TextWrapping="WrapWithOverflow"/>
